@@ -1,12 +1,55 @@
 
-body {
-  
+li {
+  list-style-type: none;
 }
+
+/* nav bar */
+
+#navbar {
+  list-style-type: none;
+  margin-top: 50;
+  margin-bottom: 30;
+  padding: 0;
+  overflow: hidden;
+  background-color: purple;
+}
+
+.nav-item {
+  float: left;
+}
+
+.nav-item a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  background-color: #111111;
+}
+
+/* band list */
+
+.band-list-container {
+  display: flex;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+
 
 h1 {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 60px;
 }
+
+h2 {
+  text-align: center;
+}
+
+/* login page form */
 
 .login {
   margin-top: 50px;
@@ -29,8 +72,36 @@ button {
   text-align: center;
 }
 
-
-
 #register-here {
   text-align: center;
+}
+
+/* login form end */
+
+/* social media footer */
+footer {
+  margin-top: 300px;
+}
+
+#social-media-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1;
+  margin-right: 37px;
+}
+
+.media-item {
+  /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1; */
+    /* margin-right: 37px; */
+}
+
+.media-item a {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
 }
